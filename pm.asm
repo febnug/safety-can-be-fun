@@ -51,8 +51,8 @@ print:
     popa
     ret
 
-uzenet16 db 'uzenet16', 0
-uzenet32 db 'uzenet32', 0
+febnug16 db 'febnug 16-bit', 0
+febnug32 db 'febnug 32-bit', 0
 
 kernel_start:
     mov ax, 0
